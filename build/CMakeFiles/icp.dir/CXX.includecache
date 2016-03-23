@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dipendra/icp/ws/src/icp.cpp
+algorithm
+-
+cstdio
+-
+cstring
+-
+ctime
+-
+fstream
+-
+functional
+-
+iostream
+-
+limits
+-
+list
+-
+map
+-
+queue
+-
+set
+-
+stack
+-
+string
+-
+vector
+-
+
