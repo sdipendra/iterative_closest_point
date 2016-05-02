@@ -1,0 +1,5 @@
+configure_file(Scan_for_MI_0016.txt ${EXECUTABLE_OUTPUT_PATH}/Scan_for_MI_0016.txt COPYONLY)
+configure_file(Scan_for_MI_0017.txt ${EXECUTABLE_OUTPUT_PATH}/Scan_for_MI_0017.txt COPYONLY)
+configure_file(Scan_for_MI_0018.txt ${EXECUTABLE_OUTPUT_PATH}/Scan_for_MI_0018.txt COPYONLY)
+configure_file(Scan_for_MI_0019.txt ${EXECUTABLE_OUTPUT_PATH}/Scan_for_MI_0019.txt COPYONLY)
+configure_file(Scan_for_MI_0020.txt ${EXECUTABLE_OUTPUT_PATH}/Scan_for_MI_0020.txt COPYONLY)
