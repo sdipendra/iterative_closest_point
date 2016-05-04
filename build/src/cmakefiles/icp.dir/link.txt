@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/icp.dir/icp.cpp.o  -o ../bin/icp  -L/usr/local/lib -rdynamic 
