@@ -102,17 +102,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named icp
+# Target rules for targets named icp1
 
 # Build rule for target.
-icp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 icp
-.PHONY : icp
+icp1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 icp1
+.PHONY : icp1
 
 # fast build rule for target.
-icp/fast:
-	$(MAKE) -f src/CMakeFiles/icp.dir/build.make src/CMakeFiles/icp.dir/build
-.PHONY : icp/fast
+icp1/fast:
+	$(MAKE) -f src/CMakeFiles/icp1.dir/build.make src/CMakeFiles/icp1.dir/build
+.PHONY : icp1/fast
+
+#=============================================================================
+# Target rules for targets named icp2
+
+# Build rule for target.
+icp2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 icp2
+.PHONY : icp2
+
+# fast build rule for target.
+icp2/fast:
+	$(MAKE) -f src/CMakeFiles/icp2.dir/build.make src/CMakeFiles/icp2.dir/build
+.PHONY : icp2/fast
 
 # Help Target
 help:
@@ -122,7 +135,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... icp"
+	@echo "... icp1"
+	@echo "... icp2"
 .PHONY : help
 
 

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/icp1.dir/icp1.cpp.o  -o ../bin/icp1  -L/usr/local/lib  -L/usr/local/cuda-7.5/targets/x86_64-linux/lib -rdynamic -Wl,-Bstatic -lflann_cuda_s -Wl,-Bdynamic -lcudart -Wl,-Bstatic -lflann_cpp_s -Wl,-Bdynamic -lgsl -lgslcblas -Wl,-rpath,/usr/local/lib:/usr/local/cuda-7.5/targets/x86_64-linux/lib 
