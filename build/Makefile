@@ -124,7 +124,7 @@ icp2: cmake_check_build_system
 
 # fast build rule for target.
 icp2/fast:
-	$(MAKE) -f src/CMakeFiles/icp2.dir/build.make src/CMakeFiles/icp2.dir/build
+	$(MAKE) -f src/cu/CMakeFiles/icp2.dir/build.make src/cu/CMakeFiles/icp2.dir/build
 .PHONY : icp2/fast
 
 # Help Target

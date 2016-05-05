@@ -5,6 +5,7 @@ project(icp_program)
 
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
+set(THRUST_DEVICE_SYSTEM THRUST_DEVICE_SYSTEM_OMP)
 #SET(FLANN_ROOT /home/dipendra/Dropbox/icp/flann-1.8.4-src)
 
 # includes header files

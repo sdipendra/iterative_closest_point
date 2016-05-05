@@ -95,8 +95,8 @@ int main( int argc, char** argv)
 		flann::Matrix<float> dists(new float[query.rows*nn], query.rows, nn);
 		
 		// construct an randomized kd-tree index using kd-trees-cuda-3d
-//		flann::Index<flann::L2<float> > index(dataset, flann::KDTreeIndexParams(1));	// Normal kdtree search
-		flann::Index<flann::L2<float> > index(dataset, flann::KDTreeCuda3dIndexParams());
+		flann::Index<flann::L2<float> > index(dataset, flann::KDTreeIndexParams(1));	// Normal kdtree search
+//		flann::Index<flann::L2<float> > index(dataset, flann::KDTreeCuda3dIndexParams());
 //	  flann::KDTreeCuda3dIndex<flann::L2<float>> index(dataset);	// bogus
 		index.buildIndex();	// Build index
 		

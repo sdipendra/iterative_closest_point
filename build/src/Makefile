@@ -115,20 +115,6 @@ icp1/fast:
 	cd /home/dipendra/Dropbox/icp/iterative_closest_point/build && $(MAKE) -f src/CMakeFiles/icp1.dir/build.make src/CMakeFiles/icp1.dir/build
 .PHONY : icp1/fast
 
-# Convenience name for target.
-src/CMakeFiles/icp2.dir/rule:
-	cd /home/dipendra/Dropbox/icp/iterative_closest_point/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/icp2.dir/rule
-.PHONY : src/CMakeFiles/icp2.dir/rule
-
-# Convenience name for target.
-icp2: src/CMakeFiles/icp2.dir/rule
-.PHONY : icp2
-
-# fast build rule for target.
-icp2/fast:
-	cd /home/dipendra/Dropbox/icp/iterative_closest_point/build && $(MAKE) -f src/CMakeFiles/icp2.dir/build.make src/CMakeFiles/icp2.dir/build
-.PHONY : icp2/fast
-
 icp1.o: icp1.cpp.o
 .PHONY : icp1.o
 
@@ -153,30 +139,6 @@ icp1.cpp.s:
 	cd /home/dipendra/Dropbox/icp/iterative_closest_point/build && $(MAKE) -f src/CMakeFiles/icp1.dir/build.make src/CMakeFiles/icp1.dir/icp1.cpp.s
 .PHONY : icp1.cpp.s
 
-icp2.o: icp2.cpp.o
-.PHONY : icp2.o
-
-# target to build an object file
-icp2.cpp.o:
-	cd /home/dipendra/Dropbox/icp/iterative_closest_point/build && $(MAKE) -f src/CMakeFiles/icp2.dir/build.make src/CMakeFiles/icp2.dir/icp2.cpp.o
-.PHONY : icp2.cpp.o
-
-icp2.i: icp2.cpp.i
-.PHONY : icp2.i
-
-# target to preprocess a source file
-icp2.cpp.i:
-	cd /home/dipendra/Dropbox/icp/iterative_closest_point/build && $(MAKE) -f src/CMakeFiles/icp2.dir/build.make src/CMakeFiles/icp2.dir/icp2.cpp.i
-.PHONY : icp2.cpp.i
-
-icp2.s: icp2.cpp.s
-.PHONY : icp2.s
-
-# target to generate assembly for a file
-icp2.cpp.s:
-	cd /home/dipendra/Dropbox/icp/iterative_closest_point/build && $(MAKE) -f src/CMakeFiles/icp2.dir/build.make src/CMakeFiles/icp2.dir/icp2.cpp.s
-.PHONY : icp2.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -185,14 +147,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... icp1"
-	@echo "... icp2"
 	@echo "... rebuild_cache"
 	@echo "... icp1.o"
 	@echo "... icp1.i"
 	@echo "... icp1.s"
-	@echo "... icp2.o"
-	@echo "... icp2.i"
-	@echo "... icp2.s"
 .PHONY : help
 
 
